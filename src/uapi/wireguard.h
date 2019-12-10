@@ -121,7 +121,7 @@
  * filling in information not contained in the prior. Note that if
  * WGDEVICE_F_REPLACE_PEERS is specified in the first message, it probably
  * should not be specified in fragments that come after, so that the list
- * of peers is only cleared the first time but appened after. Likewise for
+ * of peers is only cleared the first time but appended after. Likewise for
  * peers, if WGPEER_F_REPLACE_ALLOWEDIPS is specified in the first message
  * of a peer, it likely should not be specified in subsequent fragments.
  *
